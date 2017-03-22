@@ -10,13 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var textField: UITextField!
+    @IBOutlet var greetingLabel: UILabel!
     
-    @IBOutlet var label: UILabel!
+    @IBOutlet var textField: UITextField!
     
     @IBAction func buttonTapped(_ sender: Any) {
 
-        label.text = textField.text
+        greetingLabel.text = "Hi, \(textField.text!)!"
         
     }
     
