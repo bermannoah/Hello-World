@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     @IBAction func buttonTapped(_ sender: Any) {
 
-        label.text = "Hello World!"
+        label.text = textField.text
         
     }
     
