@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     @IBAction func buttonTapped(_ sender: Any) {
 
-        greetingLabel.text = "Hi, \(textField.text!)!"
+        greetingLabel.text = "Our friend the Kakapo says: Hi, \(textField.text!)!"
         
     }
     
